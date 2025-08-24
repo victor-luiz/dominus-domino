@@ -1,3 +1,6 @@
+import controllers.Game
+
 fun main() {
-    println("Hello World!")
+    val game = Game(arrayListOf("Victor", "João", "Pedro", "Maria"))
+    game.start()
 }
